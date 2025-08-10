@@ -1,0 +1,51 @@
+.hflex 
+{
+    width: 100%;
+}
+
+.vflex 
+{
+    height: 100%;
+}
+
+.flex 
+{
+    height: 100%;
+    width: 100%;
+}
+
+.hbox
+{
+    flex-direction: row;
+}
+
+.vbox
+{
+    flex-direction: column;
+}
+
+.hbox-multy-line
+{
+    flex-wrap: wrap;
+}
+
+.child
+{
+}
+
+.parent
+{
+    display: flex; 
+}
+
+.parent .child
+{
+    flex-grow: 1; 
+    width: auto; 
+}
+
+.centered
+{
+    justify-content: center;
+}
+

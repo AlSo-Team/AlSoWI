@@ -1,0 +1,40 @@
+@import "WICommon.uss";
+
+.panel 
+{
+    margin: 3px;
+}
+
+.header 
+{
+    height: 30px;
+}
+
+.header Label
+{
+    margin-left: 20px;
+    font-size: 16px;
+}
+
+.header Button
+{
+    height: 30px;
+    width: 30px;
+    margin: 0;
+    border-width: 0;
+    border-radius: 0;
+}
+
+.body 
+{
+
+}
+
+.footer 
+{
+    height: 20px;
+}
+
+
+
+

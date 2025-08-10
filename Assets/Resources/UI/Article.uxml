@@ -1,0 +1,11 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/SharedLibs/WI/USS/WICommon.uss?fileID=7433441132597879392&amp;guid=ed9fde1a9a26b164c94c9fa892d20965&amp;type=3#WICommon" />
+    <Style src="project://database/Assets/SharedLibs/WI/USS/WITipography.uss?fileID=7433441132597879392&amp;guid=ff10265280f72eb4bb416547dbdba249&amp;type=3#WITipography" />
+    <ui:VisualElement name="Article" class="hflex hbox article" style="background-color: rgb(255, 255, 255); color: rgb(65, 65, 65);">
+        <ui:VisualElement name="Image" class="image" />
+        <ui:VisualElement class="vbox">
+            <ui:Label text="Label" display-tooltip-when-elided="true" name="Title" class="text-heading" />
+            <ui:Label text="We then loop through all of the child VisualElement objects of the TemplateContainer using a foreach loop and the Children() method of the VisualElement class.&#10;&#10;Inside the loop, we check if the current child is a TemplateContainer by using the is keyword. If the current child is not a TemplateContainer, we assign it to the firstChild variable and break out of the loop." display-tooltip-when-elided="true" name="Description" class="text-common" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

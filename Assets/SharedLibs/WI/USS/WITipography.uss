@@ -1,0 +1,39 @@
+﻿.text-heading
+{
+	font-size : 16px;
+/*	padding-top: 15px; */
+	padding-bottom: 0px;
+
+	flex-wrap: wrap; 
+	white-space: normal;
+	color : black;
+
+}
+
+.text-common
+{
+	font-size : 12px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	
+	flex-wrap: wrap; 
+	white-space: normal;
+	color : black;
+
+}
+
+.article
+{
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.image
+{
+	margin-right: 15px;
+	width: 115px;
+	height: 100px;
+	background-color : black;
+}

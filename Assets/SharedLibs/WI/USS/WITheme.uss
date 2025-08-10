@@ -1,0 +1,33 @@
+﻿.dark
+{
+  background-color: #1e1e1e;    
+}
+
+.dark .header
+{
+    background-color: #10335f;
+}
+
+.dark .header Button
+{
+    background-color: #5f1410;
+}
+
+.dark .body
+{
+    background-color: #FFFFFF;
+}
+
+.test
+{
+    
+}
+
+.dark .footer 
+{
+    background-color: black;
+}
+    
+
+
+

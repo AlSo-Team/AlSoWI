@@ -1,0 +1,17 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/SharedLibs/WI/USS/WICommon.uss?fileID=7433441132597879392&amp;guid=ed9fde1a9a26b164c94c9fa892d20965&amp;type=3#WICommon" />
+    <Style src="project://database/Assets/SharedLibs/WI/USS/WIFramework.uss?fileID=7433441132597879392&amp;guid=901ae7929a5a104449041ae41c96dda9&amp;type=3#WIFramework" />
+    <Style src="project://database/Assets/SharedLibs/WI/USS/WITheme.uss?fileID=7433441132597879392&amp;guid=c46515e1e5cf98946979dfd183e8744b&amp;type=3#WITheme" />
+    <ui:VisualElement name="Main" class="vbox parent dark flex">
+        <ui:VisualElement name="Header" class="header hbox">
+            <ui:VisualElement name="TitleBox" class="hflex centered">
+                <ui:Label text="Label" display-tooltip-when-elided="true" name="Title" style="-unity-text-align: lower-left; -unity-font: url(&apos;project://database/Assets/TextMesh%20Pro/Fonts/LiberationSans.ttf?fileID=12800000&amp;guid=e3265ab4bf004d28a9537516768c1c75&amp;type=3#LiberationSans&apos;); color: rgb(255, 255, 255); -unity-font-style: bold;" />
+            </ui:VisualElement>
+            <ui:Button text="X" display-tooltip-when-elided="true" name="CloseButton" class="titleButton" style="-unity-font: url(&apos;project://database/Assets/TextMesh%20Pro/Fonts/LiberationSans.ttf?fileID=12800000&amp;guid=e3265ab4bf004d28a9537516768c1c75&amp;type=3#LiberationSans&apos;); -unity-font-style: bold;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="BodyBox" class="child body">
+            <ui:ListView focusable="true" style="height: 100%;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="Footer" class="footer" />
+    </ui:VisualElement>
+</ui:UXML>
